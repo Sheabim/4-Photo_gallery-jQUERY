@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+    width:80%; /* or you can also set 900px*/
+    margin: 0 auto;
+		text-align: center;
+}
+
+.gallery{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  justify-content: center;
+	margin:20px;
+}
+
+.square{
+	padding: 30px;
+}
+
+
+input {
+  border-radius:5px;
+  height:40px;
+margin-top: 40px;
+	width: 50%;
+}
