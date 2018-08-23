@@ -1,18 +1,18 @@
 
-     function myFunction() {
+function myFunction() {
 
-    var input, filter, search, a, i;
-        input = document.getElementById("myInput");
+    var input, filter, a, i;
+        input = document.getElementById('myInput');
         filter = input.value.toUpperCase();
-        search = document.getElementsByClassName('gallery');
+        a = document.getElementsByClassName('square');
 
-    for (i = 0; i < search.length; i++) {
-          a = search[i].getElementsByTagName("a")[0];
+    for (i = 0; i < a.length; i++) {
+          // a = search[i].getElementsByTagName("a")[0];
 
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-            search[i].style.display = "";
+        if (a[i].getAttribute('data-title').toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
         } else {
-            search[i].style.display = "none";
+          a[i].style.display = "none";
 
         }
     }
