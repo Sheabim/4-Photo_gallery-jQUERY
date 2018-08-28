@@ -1,7 +1,8 @@
 
-    lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-      'showImageNumberLabel':  true,
-      'maxWidth': 600,
-    })
+    // lightbox.option({
+    //   'resizeDuration': 200,
+    //   'wrapAround': true,
+    //   'showImageNumberLabel':  true,
+    //   'maxWidth': 600,
+      
+    // })
